@@ -12,20 +12,15 @@ class Solution
 public:
     ListNode* middleNode(ListNode* head) 
 	{
-		ListNode* curr;
-
-		int i, size;
-
-		curr = head;
-		size = 0;
-		while (curr != nullptr)
+		ListNode* slow, *fast;
+		
+		slow = head;
+		fast = head;
+		while (fast != nullptr && fast -> next != nullptr)
 		{
-			curr = curr -> next;
-			size++;	// Sizeof my list.
+			slow = slow -> next;
+			fast = fast -> next -> next;
 		}
-		curr = head;		
-		for (i = 0; i < size / 2; i++)
-			curr = curr -> next;
-		return (curr);	
+		return (slow);
     }
 };
