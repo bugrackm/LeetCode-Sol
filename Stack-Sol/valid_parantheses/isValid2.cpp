@@ -25,7 +25,7 @@ public:
                 st.push(s[i]);
             i++;
         }
-        if (!st.epmty())
+        if (!st.empty())
             return (false);
         return (true);
     }
