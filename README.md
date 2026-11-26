@@ -11,7 +11,8 @@ I solve each problem myself while practising data structures and algorithms.
 | Topic | Solved | Problems |
 | --- | --- | --- |
 | [Linked Lists](Linked-Lists-Sol/) | 8 | Reverse, merge, cycle detection, middle node, palindrome, intersection... |
-| [Stack](Stack-Sol/) | 1 | Valid Parentheses |
+| [Stack](Stack-Sol/) | 6 | Valid Parentheses, baseball game, make the string great, remove adjacent duplicates, special discount, palindrome list with a stack |
+| [Queue](Queue-Sol/) | 1 | First unique character in a string |
 
 ## Notes
 
