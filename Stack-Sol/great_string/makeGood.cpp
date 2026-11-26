@@ -16,7 +16,7 @@ public:
         i = 0;
         while (i < s.size())
         {
-            if (st.empty() || abs(s[i] - st.top()) < 32 || abs(s[i] - st.top()) > 32)
+            if (st.empty() || abs(s[i] - st.top()) != 32)
                 st.push(s[i]);
             else
                 st.pop();
